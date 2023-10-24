@@ -5,7 +5,7 @@ import Router from './router/Router';
 const App = () => {
 	return (
 		<BrowserRouter>
-			<h1>React Router</h1>
+			<h1>THE PLANETS</h1>
 			<Menu />
 			<Router />
 		</BrowserRouter>

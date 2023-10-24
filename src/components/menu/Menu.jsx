@@ -5,15 +5,27 @@ const Menu = () => {
 		<nav>
 			<ul>
 				<li>
-					<Link to='/'>Home</Link>
+					<Link to='/mercury'>MERCURY</Link>
 				</li>
 
 				<li>
-					<Link to='/about'>About</Link>
+					<Link to='/venus'>VENUS</Link>
 				</li>
 
 				<li>
-					<Link to='/contact'>Contact</Link>
+					<Link to='/earth'>EARTH</Link>
+				</li>
+				<li>
+					<Link to='/jupiter'>JUPITER</Link>
+				</li>
+				<li>
+					<Link to='/saturn'>SATURN</Link>
+				</li>
+				<li>
+					<Link to='/uranus'>URANUS</Link>
+				</li>
+				<li>
+					<Link to='/neptune'>NEPTUNE</Link>
 				</li>
 			</ul>
 		</nav>
