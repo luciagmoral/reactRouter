@@ -1,14 +1,17 @@
 import { BrowserRouter } from 'react-router-dom';
-import Menu from './components/menu/Menu';
 import Router from './router/Router';
+import Header from './components/header/Header';
+import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
 	return (
-		<BrowserRouter>
-			<h1>THE PLANETS</h1>
-			<Menu />
-			<Router />
-		</BrowserRouter>
+		<>
+			<GlobalStyles />
+			<BrowserRouter>
+				<Header />
+				<Router />
+			</BrowserRouter>
+		</>
 	);
 };
 

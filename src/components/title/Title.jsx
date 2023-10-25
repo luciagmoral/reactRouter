@@ -1,5 +1,6 @@
-const Title = ({ title }) => {
-	return <h1>{title}</h1>;
-};
+import StyledTitle from './styles';
 
+const Title = ({ title }) => {
+	return <StyledTitle>{title}</StyledTitle>;
+};
 export default Title;
